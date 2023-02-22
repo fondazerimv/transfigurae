@@ -1,0 +1,73 @@
+#navbarbuttonZeri {
+    background-color: #3F7CC2 !important;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.image-cropper {
+    width: 25vw;
+    height: 25vw;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.img-cropped {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    object-position: center;
+    position: relative;
+  }
+
+.userlink a{ 
+    text-align: right !important;
+    color: #8B4000 !important;
+    text-decoration: none;
+}
+
+#geacronthumbnail {
+    transition: transform .2s;
+}
+
+#geacronthumbnail:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+#hero {
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/transfigurazione.jpg");
+   background-size: cover;
+   display: flex;
+   align-items: center;
+}
+
+
+/* Stile per la stampa */
+@media all and (max-width: 1000px) {
+    #hero {
+        height: 250vh;
+    }
+
+    #herocontainer {
+        height: 180vh;
+    }
+ }
+
+#btnhead {
+    color: whitesmoke !important;
+    border-color: goldenrod !important;
+}
+
+#btnhead:hover {
+    color: whitesmoke !important;
+    background-color: rgb(152, 116, 23) !important;
+    border-color: rgb(152, 116, 23) !important
+}
