@@ -1,6 +1,6 @@
 import pandas as pd
 
-sourcedata = pd.read_excel("matthiae/byzart documentation/export-federico-zeri-2023-01-16.xlsx") 
+sourcedata = pd.read_excel("0130sparql/export-federico-zeri-2023-01-16.xlsx")  
 manual_add = {"http://hdl.handle.net/20.500.14008/9386"}
 byzartdata = pd.DataFrame()
 
@@ -36,5 +36,5 @@ for idx, row in sourcedata.iterrows():
 
         i += 1
 
-byzartdata.to_csv("matthiae/0130sparql/refine_byzart.csv")
+byzartdata.to_csv("0130sparql/refine_byzart.csv")
 
