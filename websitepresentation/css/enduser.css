@@ -71,3 +71,39 @@
     background-color: rgb(152, 116, 23) !important;
     border-color: rgb(152, 116, 23) !important
 }
+
+#col_thumb {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+input[type="radio"] {
+    opacity: 0;
+}
+
+label img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+#listthumb li {
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.comparimg img {
+    width: 25rem;
+    height: 60vh;
+    object-fit: contain;
+    margin: auto;
+}
+
+.comparimg {
+    display: none;
+    text-align: center;
+}
+
+.comparimg_txt {
+    margin-top: 2%;
+}

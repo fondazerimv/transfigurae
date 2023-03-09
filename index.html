@@ -1,192 +1,549 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Progetto Fondo Matthiae</title>
-        <link rel="icon" type="image/x-icon" href="websitepresentation/assets/zeri_logo.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap) -->
-        <link href="websitepresentation/css/styles.css" rel="stylesheet" />
-        <!-- End user CSS and JavaScript -->
-        <link href="websitepresentation/css/enduser.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top"><i>Trans</i>Figurae</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#forme">Forme</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#itinerari">Itinerari</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#spazi">Spazi & Contesti</a></li>
 
-                    </ul>
-                    <a href="https://fondazionezeri.unibo.it/it/homepage" target="_blank">
-                        <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" id="navbarbuttonZeri">
-                            <span class="d-flex align-items-center">
-                                <img src="websitepresentation/assets/zeri_logo.ico" style="width: 20px;">
-                                <span class="small">Fondazione Zeri</span>
-                            </span>
-                        </button>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Progetto Fondo Matthiae</title>
+    <link rel="icon" type="image/x-icon" href="websitepresentation/assets/zeri_logo.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="websitepresentation/css/styles.css" rel="stylesheet" />
+    <!-- End user CSS and JavaScript -->
+    <link href="websitepresentation/css/enduser.css" rel="stylesheet" />
+    <script src="websitepresentation/js/myjs.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#page-top"><i>Trans</i>Figurae</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#forme">Forme</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#immaginisec">Opere</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#itinerari">Itinerari</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#spazi">Spazi & Contesti</a></li>
+
+                </ul>
+                <a href="https://fondazionezeri.unibo.it/it/homepage" target="_blank">
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" id="navbarbuttonZeri">
+                        <span class="d-flex align-items-center">
+                            <img src="websitepresentation/assets/zeri_logo.ico" style="width: 20px;">
+                            <span class="small">Fondazione Zeri</span>
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Mashead header-->
+    <div id="hero">
+        <div id="herocontainer" class="container px-5 text-center" style="height: 50vh;">
+            <!-- revise for small screens!! -->
+
+            <div class="row gx-7 align-items-center">
+                <h2 style="font-size: 3.5rem !important; color: whitesmoke;">L’evoluzione di un modello iconografico tra
+                    Oriente e Occidente nel tardo Medioevo</h2>
+            </div>
+
+            <div class="row gx-7 align-items-center">
+                <div class="mb-5 mb-lg-0 text-center">
+                    <p class="lead fw-normal mb-5" style="color: whitesmoke;">Un <b>percorso interattivo</b> negli
+                        orizzonti geografici, temporali e politici che hanno influenzato la definizione di un nuovo
+                        canone iconografico per la <b>Transfigurazione di Cristo</b> tra XI e XIV secolo. A partire dai
+                        contributi di <b>Guglielmo Matthiae</b> e dai suoi materiali di studio conservati presso la
+                        <b>fototeca Zeri di Bologna</b>, una selezione di <b>opere esemplari</b> ci guida in questo
+                        viaggio tra Italia, Oriente bizantino e penisola balcanica</p>
+                </div>
+                <div>
+                    <a href="#gospel">
+                        <button id="btnhead" type="button" class="btn btn-outline">Inizia il viaggio!</button>
                     </a>
                 </div>
             </div>
-        </nav>
-        <!-- Mashead header-->
-        <div id="hero">
-                <div id="herocontainer" class="container px-5 text-center" style="height: 50vh;">
-                    <!-- revise for small screens!! -->
-
-                    <div class="row gx-7 align-items-center">
-                        <h2 style="font-size: 3.5rem !important; color: whitesmoke;">L’evoluzione di un modello iconografico tra Oriente e Occidente nel tardo Medioevo</h2>
-                    </div>
-                    
-                    <div class="row gx-7 align-items-center">
-                        <div class="mb-5 mb-lg-0 text-center">
-                            <p class="lead fw-normal mb-5" style="color: whitesmoke;">Un <b>percorso interattivo</b> negli orizzonti geografici, temporali e politici che hanno influenzato la definizione di un nuovo canone iconografico per la <b>Transfigurazione di Cristo</b> tra XI e XIV secolo. A partire dai contributi di <b>Guglielmo Matthiae</b> e dai suoi materiali di studio conservati presso la <b>fototeca Zeri di Bologna</b>, una selezione di <b>opere esemplari</b> ci guida in questo viaggio tra Italia, oriente bizantino e penisola balcanica</p>
-                        </div>
-                        <div>
-                            <a href="#gospel">
-                                <button id="btnhead" type="button" class="btn btn-outline">Inizia il viaggio!</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
         </div>
-        <!-- Quote Gospel-->
-        <aside class="text-center bg-gradient-primary-to-secondary" id="gospel">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                        <div class="h2 fs-1 text-white mb-4">"All'udire ciò, i discepoli caddero con la faccia a terra e <br> furono presi da grande timore"</div>
-                        <div class="h4 text-white mb-4">(Mt 17, 6)</div>
-                </div>
+    </div>
+    <!-- Quote Gospel-->
+    <aside class="text-center bg-gradient-primary-to-secondary" id="gospel">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="h2 fs-1 text-white mb-4">"All'udire ciò, i discepoli caddero con la faccia a terra e <br>
+                    furono presi da grande timore"</div>
+                <div class="h4 text-white mb-4">(Mt 17, 6)</div>
             </div>
-        </aside>
-        <!-- Forme -->
-        <section id="forme">
-            <div class="container px-5">
-                <h2 class="display-4 lh-1 mb-4 text-center">Verso un nuovo patetismo</h2>
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0 col-sm-12 col-xs-12">
-                        <div class="container-fluid px-5">
-                            <h3>Gli esordi</h3> 
-                            <p>Intorno alla metà del <b>VI secolo</b>, fa la sua comparsa il motivo iconografico della Trasfigurazione di Cristo: l’episodio evangelico - parte del Dodekaorton bizantino - si svolge sul <b>monte Tabor</b>, alla presenza dei profeti <b>Mosè</b> e <b>Elia</b> e di <b>Pietro</b>, <b>Giacomo</b> e <b>Giovanni</b>. Se il mosaico ravennate di <b>Sant’Apollinare in Classe</b> è capostipite di una tradizione che raffigura <b>simbolicamente</b> il racconto, nell’abside di <b>Santa Caterina al Monte Sinai</b> viene fissato invece il canone per la sua rappresentazione in chiave <b>narrativa</b>: fulcro è il <i>corpus gloriosum</i> di Cristo che rifulge come il sole, mentre gli apostoli sono figurati in gesti di <b>stupore calmo e sospeso</b></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 order-lg-0 col-sm-12 col-xs-12">
-                        <div class="px-0 image-cropper">
-                            <img class="img-cropped" src="0201firstviz/images/StCaterina.jpg" alt="Santa Caterina" />
-                        </div>                    
-                    </div>
-                </div>
-
-                <div class="row gx-5 align-items-center mt-sm-3 mt-xs-3">
-
-                    <div class="col-lg-8 order-lg-0 mb-5 mb-lg-1">
-                        <div class="container-fluid px-5">
-                            <h3>L’apertura tardo-comnena</h3>
-                            <p>Il codice figurativo precocemente fissato nelle <b>officine imperiali</b> di Costantinopoli sembra evolvere, nel <b>fermento della tarda età comnena</b>, verso una più sentita volontà di indagare la reazione di <b>paura</b> che, secondo il racconto evangelico, gli apostoli provarono alla vista del Cristo trasfigurato. Giacomo e Giovanni, bruscamente risvegliati dalla <b>luce abbagliante</b>, si coprono il viso, mentre solo Pietro osa guardare quel che accade sulla cima del monte. La <b>maniera grafica</b> e ancora astrattamente <b>composta</b> di rendere questo repertorio emotivo prevale anche nelle applicazioni occidentali del motivo, testimoniando <b>l’unità</b> della cultura figurativa comnena i cui <b>echi metropolitani</b> arrivano sino alla <b>Sicilia normanna</b></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 order-lg-1 col-sm-12 col-xs-12">
-                        <div class="px-0 image-cropper">
-                            <img class="img-cropped" src="websitepresentation/assets/img/monreale_intro.jpg" alt="Monreale" />
-                        </div>                    
+        </div>
+    </aside>
+    <!-- Forme -->
+    <section id="forme">
+        <div class="container px-5">
+            <h2 class="display-4 lh-1 mb-4 text-center">Verso un nuovo patetismo</h2>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0 col-sm-12 col-xs-12">
+                    <div class="container-fluid px-5">
+                        <h3>Gli esordi</h3>
+                        <p>Intorno alla metà del <b>VI secolo</b>, fa la sua comparsa il motivo iconografico della
+                            Trasfigurazione di Cristo: l’episodio evangelico - parte del Dodekaorton bizantino - si
+                            svolge sul <b>monte Tabor</b>, alla presenza dei profeti <b>Mosè</b> e <b>Elia</b> e di
+                            <b>Pietro</b>, <b>Giacomo</b> e <b>Giovanni</b>. Se il mosaico ravennate di
+                            <b>Sant’Apollinare in Classe</b> è capostipite di una tradizione che raffigura
+                            <b>simbolicamente</b> il racconto, nell’abside di <b>Santa Caterina al Monte Sinai</b> viene
+                            fissato invece il canone per la sua rappresentazione in chiave <b>narrativa</b>: fulcro è il
+                            <i>corpus gloriosum</i> di Cristo che rifulge come il sole, mentre gli apostoli sono
+                            figurati in gesti di <b>stupore calmo e sospeso</b></p>
                     </div>
                 </div>
-
-                <div class="row gx-5 align-items-center mt-3 mt-3">
-                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-                        <div class="container-fluid px-5">
-                            <h3>Tra maniera greca ed espressività paleologa</h3>
-                            <p>
-                                La perdita del ruolo normativo di Costantinopoli a seguito degli <b>avvicendamenti storici e politici</b> che caratterizzarono il XIII secolo, è premessa per la <b>fioritura artistica del periodo protopaleologo</b>, caratterizzato da un incremento nel volume degli <b>scambi</b> di opere e conoscenze tra mondo greco e occidente latino. In questo contesto matura ciò che Belting ha definito <i>lingua franca</i>: una <b>nuova visione figurativa</b>, più sciolta, espressiva e plastica, che - con il fondamentale apporto delle <b>elaborazioni macedoni e balcaniche</b> - porterà a un’ulteriore evoluzione dell’iconografia della Trasfigurazione. Nuovo fulcro sono proprio i tre apostoli, vivificati da <b>reazioni emotive e fisiche scomposte ed esasperate</b>, su cui poi si specializzerà la produzione costantinopolitana ben oltre il XIV secolo
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 order-lg-0 col-sm-12 col-xs-12">
-                        <div class="px-0 image-cropper">
-                            <img class="img-cropped" src="websitepresentation/assets/img/g54_intro.jpeg" alt="Parigi, BNF, Grec 54" />
-                        </div>                    
+                <div class="col-lg-4 order-lg-0 col-sm-12 col-xs-12">
+                    <div class="px-0 image-cropper">
+                        <img class="img-cropped" src="0201firstviz/images/StCaterina.jpg" alt="Santa Caterina" />
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Itinerario -->
-        <section class="bg-light" id="itinerari">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                    <div class="col-12 col-lg-7">
-                        <h2 class="display-4 lh-1 mb-4">Andate e ritorni, accelerazioni e resistenze</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Un itinerario interattivo che, a partire dal corpus selezionato, descrive la trasmigrazione del motivo iconografico scelto. La sequenza di opere - ordinate in senso strettamente cronologico e non legate tra loro da rapporti di filiazione diretta - ben evidenzia l’andamento tutt’altro che regolare e univoco di questo scambio artistico tra Oriente e Occidente, esaltandone piuttosto il carattere polifonico e policentrico</p>
-                        <h5 class="userlink mt-4"><a href="https://uploads.knightlab.com/storymapjs/03f9ba1f26dd1a5f1b19ca74c2cf1a87/matthiae/index.html" target="_blank" style="display:block;">VAI ALLA MAPPA</a></h5>
-                    </div>
 
-                    <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
-                        <div class="px-0 image-cropper">
-                            <a href="https://uploads.knightlab.com/storymapjs/03f9ba1f26dd1a5f1b19ca74c2cf1a87/matthiae/index.html" target="_blank">
-                                <img class="img-cropped" id="geacronthumbnail" src="websitepresentation/assets/img/mappaStoryMap.png" alt="Anteprima" />
-                            </a>
-                        </div>                    
-                    </div>
+            <div class="row gx-5 align-items-center mt-sm-3 mt-xs-3">
 
+                <div class="col-lg-8 order-lg-0 mb-5 mb-lg-1">
+                    <div class="container-fluid px-5">
+                        <h3>L’apertura tardo-comnena</h3>
+                        <p>Il codice figurativo precocemente fissato nelle <b>officine imperiali</b> di Costantinopoli
+                            sembra evolvere, nel <b>fermento della tarda età comnena</b>, verso una più sentita volontà
+                            di indagare la reazione di <b>paura</b> che, secondo il racconto evangelico, gli apostoli
+                            provarono alla vista del Cristo trasfigurato. Giacomo e Giovanni, bruscamente risvegliati
+                            dalla <b>luce abbagliante</b>, si coprono il viso, mentre solo Pietro osa guardare quel che
+                            accade sulla cima del monte. La <b>maniera grafica</b> e ancora astrattamente
+                            <b>composta</b> di rendere questo repertorio emotivo prevale anche nelle applicazioni
+                            occidentali del motivo, testimoniando <b>l’unità</b> della cultura figurativa comnena i cui
+                            <b>echi metropolitani</b> arrivano sino alla <b>Sicilia normanna</b></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 order-lg-1 col-sm-12 col-xs-12">
+                    <div class="px-0 image-cropper">
+                        <img class="img-cropped" src="websitepresentation/assets/img/monreale_intro.jpg"
+                            alt="Monreale" />
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Map -->
-        <section id="spazi">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                    <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12 order-md-0 order-sm-0 order-xs-0 order-lg-0">
-                        <div class="px-0 image-cropper">
-                            <a href="0201firstviz/firstmap.html" target="_blank">
-                                <img class="img-cropped" id="geacronthumbnail" src="websitepresentation/assets/img/mappaGeacron.png" alt="Anteprima" /> <!-- IMMAGINE DA MODIFICARE CON MAPPROJ CORRETTE!!! -->
-                            </a>
-                        </div>                    
-                    </div>
 
-                    <div class="col-12 col-lg-7">
-                        <h2 class="display-4 lh-1 mb-4">Le opere nel loro contesto</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Una visualizzazione interattiva che consente di apprezzare il luogo di produzione delle singole opere nonché lo spazio politico che le ha viste nascere, secondo una linea temporale articolata intorno a tre date fondamentali: 1185 (fine della dinastia comnena); 1204 (inizio dell’Impero latino d’Oriente); 1261 (riconquista paleologa di Costantinopoli)</p>
-                        <h5 class="userlink mt-4"><a href="0201firstviz/firstmap.html" target="_blank" style="display:block; text-align: left !important;">VAI ALLA MAPPA</a></h5>
+            <div class="row gx-5 align-items-center mt-3 mt-3">
+                <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                    <div class="container-fluid px-5">
+                        <h3>Tra maniera greca ed espressività paleologa</h3>
+                        <p>
+                            La perdita del ruolo normativo di Costantinopoli a seguito degli <b>avvicendamenti storici e
+                                politici</b> che caratterizzarono il XIII secolo, è premessa per la <b>fioritura
+                                artistica del periodo protopaleologo</b>, caratterizzato da un incremento nel volume
+                            degli <b>scambi</b> di opere e conoscenze tra mondo greco e occidente latino. In questo
+                            contesto matura ciò che Belting ha definito <i>lingua franca</i>: una <b>nuova visione
+                                figurativa</b>, più sciolta, espressiva e plastica, che - con il fondamentale apporto
+                            delle <b>elaborazioni macedoni e balcaniche</b> - porterà a un’ulteriore evoluzione
+                            dell’iconografia della Trasfigurazione. Nuovo fulcro sono proprio i tre apostoli, vivificati
+                            da <b>reazioni emotive e fisiche scomposte ed esasperate</b>, su cui poi si specializzerà la
+                            produzione costantinopolitana ben oltre il XIV secolo
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- Footer-->
-        <footer class="bg-black text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <div class="mb-2">&copy; Fondazione Zeri 2023. All Rights Reserved.</div>
+    
+    <!-- Images -->
+    <section class="bg-light" id="immaginisec">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center mt-3 mt-3 justify-content-center">
+                <h2 class="display-4 lh-1 mb-4 text-center">Il corpus di immagini</h2>
+                <p>Una rassegna interattiva delle trentacinque opere scelte che permette. Seleziona  due immagini dalla <i>gallery</i> sottostante per vederne un ingrandimento affiancato e poterne così apprezzare il confronto</p>
+                <div class="col-12 col-sm-12 col-md-2 col-md-12" style="padding: 0 0 0 0;" id="col_thumb">
+                    <ul style="list-style-type: none; width: 100%; padding: 0px;" id="listthumb">
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='StCaterina'>
+                            <label for='StCaterina' onclick="selector(0)">
+                                <img src='0201firstviz/images/StCaterina.jpg' alt='StCaterina'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='NereoAchilleo'>
+                            <label for='NereoAchilleo' onclick="selector(1)">
+                                <img src='0201firstviz/images/NereoAchilleo.jpg' alt='NereoAchilleo'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Daphni'>
+                            <label for='Daphni' onclick="selector(2)">
+                                <img src='0201firstviz/images/Daphni.jpg' alt='Daphni'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Kakopetria'>
+                            <label for='Kakopetria' onclick="selector(3)">
+                                <img src='0201firstviz/images/Kakopetria.jpg' alt='Kakopetria'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='NeaMoni'>
+                            <label for='NeaMoni' onclick="selector(4)">
+                                <img src='0201firstviz/images/NeaMoni.jpg' alt='NeaMoni'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Porta'>
+                            <label for='Porta' onclick="selector(5)">
+                                <img src='0201firstviz/images/Porta.jpg' alt='Porta'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='IconaSinai'>
+                            <label for='IconaSinai' onclick="selector(6)">
+                                <img src='0201firstviz/images/IconaSinai.jpeg' alt='IconaSinai'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Melisenda'>
+                            <label for='Melisenda' onclick="selector(7)">
+                                <img src='0201firstviz/images/Melisenda.jpg' alt='Melisenda'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='CappellaPalatina'>
+                            <label for='CappellaPalatina' onclick="selector(8)">
+                                <img src='0201firstviz/images/CappellaPalatina.jpg' alt='CappellaPalatina'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Nerezi'>
+                            <label for='Nerezi' onclick="selector(9)">
+                                <img src='0201firstviz/images/Nerezi.jpeg' alt='Nerezi'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Monreale'>
+                            <label for='Monreale' onclick="selector(10)">
+                                <img src='0201firstviz/images/Monreale.jpg' alt='Monreale'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Pisa'>
+                            <label for='Pisa' onclick="selector(11)">
+                                <img src='0201firstviz/images/Pisa.jpg' alt='Pisa'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Louvre'>
+                            <label for='Louvre' onclick="selector(12)">
+                                <img src='0201firstviz/images/Louvre.jpg' alt='Louvre'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Crociato'>
+                            <label for='Crociato' onclick="selector(13)">
+                                <img src='0201firstviz/images/Crociato.jpg' alt='Crociato'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='TorosRoslin'>
+                            <label for='TorosRoslin' onclick="selector(14)">
+                                <img src='0201firstviz/images/TorosRoslin.jpg' alt='TorosRoslin'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Sopocani'>
+                            <label for='Sopocani' onclick="selector(15)">
+                                <img src='0201firstviz/images/Sopocani.jpg' alt='Sopocani'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Crevole'>
+                            <label for='Crevole' onclick="selector(16)">
+                                <img src='0201firstviz/images/Crevole.jpg' alt='Crevole'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Iveron'>
+                            <label for='Iveron' onclick="selector(17)">
+                                <img src='0201firstviz/images/Iveron.jpg' alt='Iveron'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Tessalonica'>
+                            <label for='Tessalonica' onclick="selector(18)">
+                                <img src='0201firstviz/images/Tessalonica.jpg' alt='Tessalonica'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Gr54'>
+                            <label for='Gr54' onclick="selector(19)">
+                                <img src='0201firstviz/images/Gr54.jpg' alt='Gr54'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Supplicationes'>
+                            <label for='Supplicationes' onclick="selector(20)">
+                                <img src='0201firstviz/images/Supplicationes.jpg' alt='Supplicationes'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='BUB'>
+                            <label for='BUB' onclick="selector(21)">
+                                <img src='0201firstviz/images/BUB.jpg' alt='BUB'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id=''>
+                            <label for='' onclick="selector(22)">
+                                <img src='0201firstviz/nan' alt=''>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Prilep'>
+                            <label for='Prilep' onclick="selector(23)">
+                                <img src='0201firstviz/images/Prilep.jpg' alt='Prilep'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Lesouef'>
+                            <label for='Lesouef' onclick="selector(24)">
+                                <img src='0201firstviz/images/Lesouef.jpg' alt='Lesouef'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Asinou'>
+                            <label for='Asinou' onclick="selector(25)">
+                                <img src='0201firstviz/images/Asinou.jpg' alt='Asinou'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Gladzor'>
+                            <label for='Gladzor' onclick="selector(26)">
+                                <img src='0201firstviz/images/Gladzor.jpg' alt='Gladzor'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Duccio'>
+                            <label for='Duccio' onclick="selector(27)">
+                                <img src='0201firstviz/images/Duccio.jpg' alt='Duccio'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='OperaDuomo'>
+                            <label for='OperaDuomo' onclick="selector(28)">
+                                <img src='0201firstviz/images/OperaDuomo.jpg' alt='OperaDuomo'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='SSApostoli'>
+                            <label for='SSApostoli' onclick="selector(29)">
+                                <img src='0201firstviz/images/SSApostoli.jpg' alt='SSApostoli'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Thyssen'>
+                            <label for='Thyssen' onclick="selector(30)">
+                                <img src='0201firstviz/images/Thyssen.jpg' alt='Thyssen'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Studenica'>
+                            <label for='Studenica' onclick="selector(31)">
+                                <img src='0201firstviz/images/Studenica.jpg' alt='Studenica'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Tessile'>
+                            <label for='Tessile' onclick="selector(32)">
+                                <img src='0201firstviz/images/Tessile.jpg' alt='Tessile'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Iconostasi'>
+                            <label for='Iconostasi' onclick="selector(33)">
+                                <img src='0201firstviz/images/Iconostasi.jpg' alt='Iconostasi'>
+                            </label>
+                        </li>
+                        
+                    
+                        <li>
+                            <input type="radio" name="thumb" class="sr-only" id='Cantacuzeno'>
+                            <label for='Cantacuzeno' onclick="selector(34)">
+                                <img src='0201firstviz/images/Cantacuzeno.jpg' alt='Cantacuzeno'>
+                            </label>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+            <div class="row gx-5 align-items-center mt-3 mt-3 justify-content-center comparimgrow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 comparimg">
+                    <img class="comparimg_img">
+                    <p class="comparimg_txt"></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 comparimg">
+                    <img class="comparimg_img">
+                    <p class="comparimg_txt"></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="websitepresentation/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    <!-- Itinerario -->
+    <section  id="itinerari">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-12 col-lg-7">
+                    <h2 class="display-4 lh-1 mb-4">Andate e ritorni, accelerazioni e resistenze</h2>
+                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Un itinerario interattivo che, a partire dal
+                        corpus selezionato, descrive la trasmigrazione del motivo iconografico scelto. La sequenza di
+                        opere - ordinate in senso strettamente cronologico e non legate tra loro da rapporti di
+                        filiazione diretta - ben evidenzia l’andamento tutt’altro che regolare e univoco di questo
+                        scambio artistico tra Oriente e Occidente, esaltandone piuttosto il carattere polifonico e
+                        policentrico</p>
+                    <h5 class="userlink mt-4"><a
+                            href="https://uploads.knightlab.com/storymapjs/03f9ba1f26dd1a5f1b19ca74c2cf1a87/matthiae/index.html"
+                            target="_blank" style="display:block;">VAI ALLA MAPPA</a></h5>
+                </div>
+
+                <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
+                    <div class="px-0 image-cropper">
+                        <a href="https://uploads.knightlab.com/storymapjs/03f9ba1f26dd1a5f1b19ca74c2cf1a87/matthiae/index.html"
+                            target="_blank">
+                            <img class="img-cropped" id="geacronthumbnail"
+                                src="websitepresentation/assets/img/mappaStoryMap.png" alt="Anteprima" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Map -->
+    <section class="bg-light" id="spazi">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12 order-md-0 order-sm-0 order-xs-0 order-lg-0">
+                    <div class="px-0 image-cropper">
+                        <a href="0201firstviz/firstmap.html" target="_blank">
+                            <img class="img-cropped" id="geacronthumbnail"
+                                src="websitepresentation/assets/img/mappaGeacron.png" alt="Anteprima" />
+                            <!-- IMMAGINE DA MODIFICARE CON MAPPROJ CORRETTE!!! -->
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-7">
+                    <h2 class="display-4 lh-1 mb-4">Le opere nel loro contesto</h2>
+                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Una visualizzazione interattiva che consente di
+                        apprezzare il luogo di produzione delle singole opere nonché lo spazio politico che le ha viste
+                        nascere, secondo una linea temporale articolata intorno a tre date fondamentali: 1185 (fine
+                        della dinastia comnena); 1204 (inizio dell’Impero latino d’Oriente); 1261 (riconquista paleologa
+                        di Costantinopoli)</p>
+                    <h5 class="userlink mt-4"><a href="0201firstviz/firstmap.html" target="_blank"
+                            style="display:block; text-align: left !important;">VAI ALLA MAPPA</a></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; Fondazione Zeri 2023. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="websitepresentation/js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
