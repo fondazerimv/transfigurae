@@ -26,6 +26,9 @@
     <!-- End user CSS and JavaScript -->
     <link href="websitepresentation/css/enduser.css" rel="stylesheet" />
     <script src="websitepresentation/js/myjs.js"></script>
+
+    <!-- Zoomist -->
+    <script src="js/openseadragon.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -455,6 +458,9 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- https://stackoverflow.com/questions/47635341/zooming-in-out-an-image-by-clicking-zoom-buttons-javascript -->
+
             <div class="row gx-5 align-items-center mt-3 mt-3 justify-content-center comparimgrow">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 comparimg">
                     <img class="comparimg_img">
@@ -465,6 +471,12 @@
                     <p class="comparimg_txt"></p>
                 </div>
             </div>
+
+            <div class="row gx-5 align-items-center mt-3 mt-3 justify-content-center comparimgrow">
+                <div id="zoomImage"></div>
+            </div>
+
+
         </div>
     </section>
 

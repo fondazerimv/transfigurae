@@ -124,7 +124,7 @@ function selector(n) {
       "labels": "Collaboratore del Maestro della Bibbia di Gerona <br> Bologna, Biblioteca Universitaria <br> <i>Salterio</i>, ms. 346, c. 9v"
     },
     "22": {
-      "path": null,
+      "path": "images/Peribleptos.jpg",
       "labels": "Michele e Eutichio Astrapas <br> Ocrida, San Clemente <br> pittura murale nella volta del naos"
     },
     "23": {
