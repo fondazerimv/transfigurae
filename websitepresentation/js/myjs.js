@@ -1,40 +1,44 @@
 var div1bol = false;
 var div2bol = false;
 
+function zoomist_change(link, id) {
+  var htmlarray = document.getElementById(id).innerHTML.split(" ");
+  htmlarray[11] = "src='" + String(link) + "'";
+  document.getElementById(id).zoomist["url"] = link;
+  document.getElementById(id).zoomist["image"]["attributes"][1] = "'" + String(link) + "'";
+  document.getElementById(id).zoomist["image"]["src"] = link;
+  document.getElementById(id).zoomist["image"]["currentSrc"] = link;
+}
+
 function divcompiler(image, comment) {
 
-    classOfImgs = document.getElementsByClassName("comparimg_img");
-    classOfPars = document.getElementsByClassName("comparimg_txt");
+  classOfPars = document.getElementsByClassName("comparimg_txt");
 
-    if(div1bol == false) {
-        Object.values($( ".comparimg" ))[0].style.display = "block"
-        Object.values(classOfImgs)[0].src = image;
-        console.log(Object.values(classOfPars)[0])
-        Object.values(classOfPars)[0].innerHTML = comment;
-        div1bol = true;
-    } 
+  if (div1bol == false) {
+    Object.values($(".comparimg"))[0].style.display = "block"
+    zoomist_change(image, "my-zoomist1");
+    console.log(Object.values(classOfPars)[0])
+    Object.values(classOfPars)[0].innerHTML = comment;
+    div1bol = true;
+  } else {
 
-    else {
-
-        if(div2bol == false) {
-            Object.values($( ".comparimg" ))[1].style.display = "block"
-            Object.values(classOfImgs)[1].src = image;
-            console.log(Object.values(classOfPars)[1])
-            Object.values(classOfPars)[1].innerHTML = comment;
-            div2bol = true;
-        }
-
-        else {
-            div1bol = false;
-            div2bol = false;
-        }
+    if (div2bol == false) {
+      Object.values($(".comparimg"))[1].style.display = "block"
+      zoomist_change(image, "my-zoomist2")
+      Object.values(classOfPars)[1].innerHTML = comment;
+      console.log(comment)
+      div2bol = true;
+    } else {
+      div1bol = false;
+      div2bol = false;
     }
-    
+  }
+
 }
 
 function selector(n) {
-    
-    jsondata = {
+
+  jsondata = {
     "0": {
       "path": "images/StCaterina.jpg",
       "labels": "Santa Caterina al Sinai <br> mosaico absidale"
@@ -177,7 +181,7 @@ function selector(n) {
     }
   }
 
-    var filepath = "0201firstviz/" + Object.values(Object.values(jsondata)[n])[0];
-    var label = Object.values(Object.values(jsondata)[n])[1];
-    divcompiler(filepath, label);
+  var filepath = "0201firstviz/" + Object.values(Object.values(jsondata)[n])[0];
+  var label = Object.values(Object.values(jsondata)[n])[1];
+  divcompiler(filepath, label);
 }

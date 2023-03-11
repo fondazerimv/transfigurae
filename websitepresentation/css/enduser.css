@@ -92,7 +92,13 @@ label img {
     display: inline-block;
 }
 
-.comparimg img {
+.comparimg div {
+    margin: auto;
+    background-color: gainsboro;
+    border: 1px #3F7CC2;
+}
+
+.comparimg div img {
     width: 25rem;
     height: 60vh;
     object-fit: contain;
