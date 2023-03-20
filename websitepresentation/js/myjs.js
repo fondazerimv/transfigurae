@@ -88,7 +88,7 @@ function selector(n) {
       "labels": "Bonanno Pisano <br> Pisa, Santa Maria Assunta <br> formella bronzea della porta di San Ranieri"
     },
     "12": {
-      "path": "images/Louvre.jpeg",
+      "path": "images/Louvre.png",
       "labels": "Parigi, Musée du Louvre <br> icona in micromosaico"
     },
     "13": {
