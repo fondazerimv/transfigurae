@@ -151,7 +151,7 @@ function selector(n) {
     },
     "26": {
       "path": "images/Duccio.jpg",
-      "labels": "Duccio di Buoninsegna <br> Londra, National Gallery <br> scomparto di predella dalla Maestà per il duomo di Siena. "
+      "labels": "Duccio di Buoninsegna <br> Londra, National Gallery <br> scomparto di predella dalla Maestà per il duomo di Siena"
     },
     "27": {
       "path": "images/OperaDuomo.jpg",
