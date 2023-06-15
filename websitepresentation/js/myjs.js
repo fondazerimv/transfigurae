@@ -46,34 +46,38 @@ function selector(n) {
     "1": {
       "path": "images/NereoAchilleo.jpg",
       "labels": "Roma, Santissimi Nereo ed Achilleo <br> mosaico dell'arco trionfale"
+      
     },
     "2": {
-      "path": "images/Daphni.jpg",
-      "labels": "Chaidari, Moní Dafníou <br> mosaico della navata centrale "
+      "path": "images/NeaMoni.jpg",
+      "labels": "Chios, Néa Moní <br> mosaico nella volta del naos"
+   
     },
     "3": {
       "path": "images/Kakopetria.jpg",
       "labels": "Kakopetria, Hagios Nikolaos tis Stegis <br> pittura murale nella volta ovest della navata "
+    
     },
     "4": {
-      "path": "images/NeaMoni.jpg",
-      "labels": "Chios, Néa Moní <br> mosaico nella volta del naos"
-    },
-    "5": {
       "path": "images/Porta.jpg",
       "labels": "Teodoro greco e Staurachio di Scio <br> Roma, San Paolo fuori le Mura <br> formella bronzea del portale maggiore "
     },
-    "6": {
+    "5": {
       "path": "images/IconaSinai.jpeg",
-      "labels": "Santa Caterina al Sinai <br> icona"
+      "labels": "Santa Caterina al Sinai <br> scomparto d'epistilio di iconostasi"
     },
-    "7": {
+    "6": {
       "path": "images/Melisenda.jpg",
       "labels": "Londra, British Library <br> <i>Salterio di Melisenda</i>, ms. Egerton 1139, c. 4v"
     },
-    "8": {
+    "7": {
       "path": "images/CappellaPalatina.jpg",
       "labels": "Palermo, Palazzo dei Normanni <br> mosaico della Cappella Palatina "
+      
+    },
+    "8": {
+      "path": "images/Daphni.jpg",
+      "labels": "Chaidari, Moní Dafníou <br> mosaico nella volta del naos "
     },
     "9": {
       "path": "images/Nerezi.jpeg",
@@ -81,7 +85,7 @@ function selector(n) {
     },
     "10": {
       "path": "images/Monreale.jpg",
-      "labels": "Monreale, Santa Maria Nuova <br> mosaico della navata"
+      "labels": "Monreale, Santa Maria Nuova <br> mosaico in un pennacchio del transetto destro"
     },
     "11": {
       "path": "images/Pisa.jpg",
@@ -93,7 +97,8 @@ function selector(n) {
     },
     "13": {
       "path": "images/Crociato.jpg",
-      "labels": "Santa Caterina al Sinai <br> scomparto di trave della gloria "
+      "labels": "Santa Caterina al Sinai <br> scomparto d'epistilio di iconostasi"
+      
     },
     "14": {
       "path": "images/TorosRoslin.jpg",
@@ -138,46 +143,52 @@ function selector(n) {
     "24": {
       "path": "images/Lesouef.jpg",
       "labels": "Jacopino da Reggio <br> Parigi, Bibliothèque nationale de France <br> <i>Salterio</i>, ms. Smith-Lesouef 21, c. 15v"
+    
     },
     "25": {
-      "path": "images/Asinou.jpg",
-      "labels": "Nikitari, Panagia Asinou <br> pittura murale nella volta del naos"
-    },
-    "26": {
       "path": "images/Gladzor.jpg",
       "labels": "T'oros di Taron e collaboratori <br> Los Angeles, Young Research Library of UCLA <br> <i>Vangelo Gladzor</i>, ms. 1, c. 106r"
     },
-    "27": {
+    "26": {
       "path": "images/Duccio.jpg",
       "labels": "Duccio di Buoninsegna <br> Londra, National Gallery <br> scomparto di predella dalla Maestà per il duomo di Siena. "
     },
-    "28": {
+    "27": {
       "path": "images/OperaDuomo.jpg",
       "labels": "Firenze, Museo dell'Opera del Duomo <br> scomparto di dittico in micromosaico"
     },
-    "29": {
+    "28": {
       "path": "images/SSApostoli.jpg",
       "labels": "Salonicco, Santissimi Apostoli <br> mosaico nella volta del naos"
+      
+    },
+    "29": {
+      "path": "images/Studenica.jpg",
+      "labels": "Studenica, Santissimi Gioacchino e Anna <br> pittura murale nella volta del naos "
+      
     },
     "30": {
       "path": "images/Thyssen.jpg",
-      "labels": "Maestro del tabernacolo Haniel <br> Madrid, Museo Nacional Thyssen-Bornemisza <br> scomparto del tabernacolo Haniel"
+      "labels": "Madrid, Museo Nacional Thyssen-Bornemisza <br> scomparto di tabernacolo"
+      
     },
     "31": {
-      "path": "images/Studenica.jpg",
-      "labels": "Studenica, Santa Maria <br> pittura murale nella volta del naos "
+      "path": "images/Asinou.jpg",
+      "labels": "Nikitari, Panagia Asinou <br> pittura murale nella volta del naos"
+      
     },
     "32": {
-      "path": "images/Tessile.jpg",
-      "labels": "Città del Vaticano, Museo del tesoro di San Pietro <br> sakkos"
+      "path": "images/Iconostasi.jpg",
+      "labels": "Santa Caterina al Sinai <br> altarolo a soffietto con sei ante "
     },
     "33": {
-      "path": "images/Iconostasi.jpg",
-      "labels": "Santa Caterina al Sinai <br> scomparto di trave della gloria "
-    },
-    "34": {
       "path": "images/Cantacuzeno.jpg",
       "labels": "Parigi, Bibliothèque nationale de France <br> <i>Joannes Cantacuzenus</i>, ms. Grec 1242, c. 92v"
+      
+    },
+    "34": {
+      "path": "images/Tessile.jpg",
+      "labels": "Città del Vaticano, Museo del tesoro di San Pietro <br> sakkos"
     }
   }
 
